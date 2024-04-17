@@ -2,9 +2,6 @@ on: push
 jobs:
   build-node: 
     runs-on: ubuntu-latest
-    container: node:16
+    container: python:3.8
     steps:
-      - run: node --version
-      - run: npm --version
-      - uses: actions/checkout@v4
-      - run: node app.js
+      - run: coso.py
