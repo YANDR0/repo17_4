@@ -1,0 +1,10 @@
+on: push
+jobs:
+  build-node: ubuntu-latest
+    runs-on: node:16
+    container:
+    steps:
+      - run: node --version
+      - run: npm --version
+      - uses: actions/checkout@v4
+      - run: node app.js
