@@ -2,8 +2,11 @@ on: push
 jobs:
   build-node: 
     runs-on: ubuntu-latest
-    container: node
+    container: node:16
     steps:
-      - run: echo "Yael Alejandro Rodríguez Barreto"
-      - run: echo "A"
-      - run: echo "739286"
+      - name: Print something 
+        run: echo "Yael Alejandro Rodríguez Barreto"
+      - name: Print something 2
+        run: echo "16"
+      - name: Complete job
+        run: echo "739286"
