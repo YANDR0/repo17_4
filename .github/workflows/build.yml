@@ -7,6 +7,6 @@ jobs:
       - name: Print something 
         run: echo "Yael Alejandro Rodríguez Barreto"
       - name: Print something 2
-        run: echo "16"
+        run: echo node-v
       - name: Complete job
         run: echo "739286"
