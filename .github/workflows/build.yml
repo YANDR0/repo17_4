@@ -2,7 +2,8 @@ on: push
 jobs:
   build-node: 
     runs-on: ubuntu-latest
-    container: python:3.8
+    container: node
     steps:
-      - uses: actions/checkout@v4
-      - run: python3 coso.py
+      - run: echo "Yael Alejandro Rodríguez Barreto"
+      - run: echo "A"
+      - run: echo "739286"
